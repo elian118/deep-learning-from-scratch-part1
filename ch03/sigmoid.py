@@ -11,5 +11,6 @@ y = sigmoid(x)
 
 if __name__ == "__main__":
     plt.plot(x, y)
+    plt.title('sigmoid')
     plt.ylim(-0.1, 1.1)
     plt.show()
